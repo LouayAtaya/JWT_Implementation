@@ -43,7 +43,7 @@ namespace JWT_1.Controllers
                 return Ok(token);
 
             }
-            catch (Exception e) 
+            catch (Exception e)  
             {
                 return BadRequest("An Error has been accourd, " + e.Message);
             }
